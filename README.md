@@ -40,7 +40,7 @@ VivaGastronomia delivers tailored recipe suggestions based on users' dietary pre
 
 The project is organized as follows:
 ```
-vivagastronomia/yaml
+vivagastronomia/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/seunome/vivagastronomia/
