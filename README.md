@@ -1,23 +1,11 @@
-<!-- Header Image (substitua o link abaixo pelo seu logotipo, se tiver) -->
-<p align="center">
-  <img src="https://via.placeholder.com/600x150?text=VivaGastronomia" alt="VivaGastronomia Logo">
-</p>
+# VivaGastronomia
 
-<!-- Badges -->
-<p align="center">
-  <a href="https://github.com/diegovinicius-dev/vivagastronomia">
-    <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
-  </a>
-  <a href="https://openjdk.java.net/">
-    <img src="https://img.shields.io/badge/Java-21-blue" alt="Java Version">
-  </a>
-  <a href="https://github.com/diegovinicius-dev/vivagastronomia/stargazers">
-    <img src="https://img.shields.io/github/stars/diegovinicius-dev/vivagastronomia?style=social" alt="GitHub Stars">
-  </a>
-</p>
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/diegovinicius-dev/vivagastronomia)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java Version](https://img.shields.io/badge/Java-21-blue)](https://openjdk.java.net/)
+[![GitHub Stars](https://img.shields.io/github/stars/diegovinicius-dev/vivagastronomia?style=social)](https://github.com/diegovinicius-dev/vivagastronomia)
+
+*An intelligent backend system providing personalized healthy recipe recommendations.*
 
 ## Table of Contents
 
@@ -51,22 +39,21 @@ VivaGastronomia delivers tailored recipe suggestions based on users' dietary pre
 ## Project Structure
 
 The project is organized as follows:
-vivagastronomia/
+```vivagastronomia/yaml
 ├── src/
 │   ├── main/
 │   │   ├── java/com/seunome/vivagastronomia/
 │   │   │   ├── controller/         # REST Controllers
 │   │   │   ├── service/            # Business logic
-│   │   │   ├── repository/         # Data access layers
+│   │   │   ├── repository/         # Data access layer
 │   │   │   ├── model/              # Domain models / Entities
-│   │   │   └── dto/                # Data Transfer Objects
+│   │   │   └── dto/                # Data Transfer Objects (if needed)
 │   │   └── resources/
-│   │       ├── application.properties
-│   │       └── ...                 # Other resource files
-│   └── test/
-│       └── java/...                # Test classes
-├── pom.xml
-└── README.md
+│   │       └── application.properties
+│   └── test/                     # Unit and integration tests
+├── pom.xml                       # Maven configuration
+└── README.md                     # Project documentation
+```
 
 ## Contributing
 
