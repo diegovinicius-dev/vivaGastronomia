@@ -1,6 +1,7 @@
 # VivaGastronomia
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/diegovinicius-dev/vivagastronomia)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/diegovinicius-dev/vivagastronomia)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java Version](https://img.shields.io/badge/Java-21-blue)](https://openjdk.java.net/)
 [![GitHub Stars](https://img.shields.io/github/stars/diegovinicius-dev/vivagastronomia?style=social)](https://github.com/diegovinicius-dev/vivagastronomia)
