@@ -39,7 +39,8 @@ VivaGastronomia delivers tailored recipe suggestions based on users' dietary pre
 ## Project Structure
 
 The project is organized as follows:
-```vivagastronomia/yaml
+```
+vivagastronomia/yaml
 ├── src/
 │   ├── main/
 │   │   ├── java/com/seunome/vivagastronomia/
